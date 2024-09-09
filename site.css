@@ -1,0 +1,53 @@
+/* Google Fonts integration */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply font family to the whole document */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4f1; /* Light, warm background color */
+    color: #5f4b6e; 
+}
+
+/* Container styling */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff; /* White background for the content area */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+}
+
+/* Styling for headings */
+h1, h2, h3, h4 {
+    background-color: #f8cfcf; 
+    color: #d45a6d; /* Warm, contrasting text color */
+    border: 1px solid #d5a2a2; 
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners for headings */
+}
+
+/* Link styling */
+a {
+    color: #f76c6c; 
+    text-decoration: none;
+}
+
+/* Link hover state */
+a:hover {
+    color: #f9a6a1; 
+}
+
+/* Visited link state */
+a:visited {
+    color: #e05d7b; /* Visited link color */
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 0;
+    border-top: 1px solid #f8cfcf; /* Matching color with the headings for a cohesive look */
+}

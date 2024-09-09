@@ -1,0 +1,87 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Retro typewriter font */
+    font-size: 12px; /* Set font size to 12px */
+    margin: 0;
+    padding: 0;
+    background-color: #fafad2; /* Light goldenrod yellow for a warm feel */
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6f00; /* Warm orange */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; /* Increased padding for a more prominent header */
+    font-family: 'Press Start 2P', cursive; /* Retro pixel font */
+    font-size: 18px; /* Slightly larger font size for readability */
+}
+
+/* Container styling */
+#container {
+    margin: 20px auto;
+    font-size: 12px; /* Ensure font size is consistent */
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ffab91; /* Warm peach color */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px; /* Adjust height to make the card larger */
+    width: 100%; /* Ensure the card takes full width of the container */
+}
+
+/* Content inside the card */
+.card-content {
+    display: flex;
+    flex-direction: row; /* Align photo and text horizontally */
+    margin-bottom: 20px; /* Increased space between content and footer */
+}
+
+/* Photo section */
+.photo {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #ffe0b2; /* Light orange color */
+    border: 1px solid #ffab91; /* Warm peach border */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Text section */
+.text {
+    flex: 2;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto; /* Push footer to the bottom of the card */
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer-content {
+    text-align: left; /* Align footer content to the left */
+}
+
+a {
+    color: #ff5722; /* Retro orange link color */
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px; /* Consistent font size for links */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e64a19; /* Darker orange on hover */
+}

@@ -1,0 +1,81 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light beige background for a warm feel */
+    color: #4a4a4a; /* Darker gray text for readability */
+}
+
+/* Header styling */
+header {
+    background-color: #d35400; /* Warm orange */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Container styling */
+#container {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #e2b9a2; /* Soft, warm beige */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    max-height: 500px; /* Adjust height as needed */
+}
+
+/* Content inside the card */
+.card-content {
+    display: flex;
+    flex-direction: row; /* Align photo and text horizontally */
+    margin-bottom: 20px; /* Space between content and footer */
+}
+
+/* Photo section */
+.photo {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #fbe4d5; /* Light peachy color */
+    border: 1px solid #f5a623; /* Warm orange border */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Text section */
+.text {
+    flex: 2;
+    color: #3e2723; /* Dark brown text for a cozy feel */
+}
+
+/* Footer styling */
+footer {
+    text-align: left;
+    margin-top: auto; /* Push footer to the bottom */
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+a {
+    color: #e67e22; /* Warm orange link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d35400; /* Slightly darker orange on hover */
+}
