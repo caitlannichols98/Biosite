@@ -51,6 +51,14 @@ header {
     text-align: center;
 }
 
+/* Image styling to adjust the size */
+.photo img {
+    max-width: 100%; /* Ensure the image scales responsively within its container */
+    height: auto; /* Maintain aspect ratio */
+    width: 200px; /* Set desired width for the image */
+    border-radius: 4px; /* Optional: rounded corners to match the photo container */
+}
+
 /* Text section */
 .text {
     flex: 2;
@@ -73,9 +81,3 @@ footer {
 a {
     color: #e67e22; /* Warm orange link color */
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #d35400; /* Slightly darker orange on hover */
-}
